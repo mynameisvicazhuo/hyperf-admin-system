@@ -1,0 +1,35 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "MineAdmin API DOC",
+        "description": "MineAdmin后台接口列表",
+        "version": "1.1"
+    },
+    "servers": [
+        {
+            "url": "http://127.0.0.1:9501",
+            "description": "本地服务器"
+        }
+    ],
+    "paths": {},
+    "components": {
+        "schemas": {},
+        "securitySchemes": {
+            "Authorization": {
+                "type": "apiKey",
+                "name": "Authorization",
+                "in": "header"
+            }
+        }
+    },
+    "security": [
+        {
+            "Authorization": []
+        }
+    ],
+    "tags": [],
+    "externalDocs": {
+        "description": "Find out more about Swagger",
+        "url": "https://github.com/tw2066/api-docs"
+    }
+}

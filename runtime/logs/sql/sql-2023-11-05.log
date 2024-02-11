@@ -1,0 +1,335 @@
+[2023-11-05 00:00:18] sql.INFO: [14.03] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"3bf7a1e9-4692-4d9c-b141-7301677b1fc3","coroutine_id":679}
+[2023-11-05 00:01:18] sql.INFO: [7] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"21add99c-9e03-48e4-80df-cc70314ce837","coroutine_id":680}
+[2023-11-05 00:02:18] sql.INFO: [18.81] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c9803596-b9c9-439d-b2aa-3d3d92d699f4","coroutine_id":681}
+[2023-11-05 00:03:18] sql.INFO: [4] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"0c081b97-3b69-418d-8de5-8a28b0029cbd","coroutine_id":682}
+[2023-11-05 00:04:18] sql.INFO: [14.55] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"469be133-7351-4fd9-af32-474cd556b6ea","coroutine_id":683}
+[2023-11-05 00:05:18] sql.INFO: [6.7] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"58b519aa-533c-4bf0-94b2-d55d775cc6ce","coroutine_id":684}
+[2023-11-05 00:06:18] sql.INFO: [5.13] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"71c387e4-3d3d-40b3-b82d-a778dfef03a4","coroutine_id":685}
+[2023-11-05 00:07:18] sql.INFO: [6.93] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"2b43ef82-3ab4-4cbb-89ee-00555a681d61","coroutine_id":686}
+[2023-11-05 00:08:18] sql.INFO: [18.49] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"cec9cbd6-4e39-4e16-b4e9-bd780b7a9de8","coroutine_id":687}
+[2023-11-05 00:09:18] sql.INFO: [5.93] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"46483294-f1cb-47b5-bb0e-bdf17bf41732","coroutine_id":688}
+[2023-11-05 00:10:18] sql.INFO: [3.69] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"8d11458f-af46-4ced-a4f2-e0f7e44889d3","coroutine_id":689}
+[2023-11-05 00:11:18] sql.INFO: [3.5] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"9bbcaba2-0c96-4dd8-808e-d558a7df5c6b","coroutine_id":690}
+[2023-11-05 00:12:18] sql.INFO: [9.22] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c1a7feb0-3bd5-41d2-ad40-e5222d8a6153","coroutine_id":691}
+[2023-11-05 00:13:18] sql.INFO: [15.26] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"7e90380f-ea96-4446-8f95-53ea5a52ce7c","coroutine_id":692}
+[2023-11-05 00:14:18] sql.INFO: [3.93] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"093b909f-4ace-474a-bfd4-cc960ac8f4a4","coroutine_id":693}
+[2023-11-05 00:15:18] sql.INFO: [12.43] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"a4faf38c-4920-4d6a-a8b5-0d6eddbeb770","coroutine_id":694}
+[2023-11-05 00:16:18] sql.INFO: [4.34] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"49234190-6c59-4125-9a46-97561e05432e","coroutine_id":695}
+[2023-11-05 00:17:18] sql.INFO: [12.07] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"5d0a1484-9ada-4cba-a43f-56510d21d25e","coroutine_id":696}
+[2023-11-05 00:18:18] sql.INFO: [15.46] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c51f0e61-581f-4199-b148-5db5e54173ee","coroutine_id":697}
+[2023-11-05 00:19:18] sql.INFO: [4.57] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"3e77c18e-110c-49cf-91ae-1aef137706bf","coroutine_id":698}
+[2023-11-05 00:20:18] sql.INFO: [21.58] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c593d1be-ac96-4948-ab7f-b6679ed11595","coroutine_id":699}
+[2023-11-05 00:21:18] sql.INFO: [3.61] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"59c99e64-d0aa-44ab-83c0-23b792a2e6b4","coroutine_id":700}
+[2023-11-05 00:22:18] sql.INFO: [4.41] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"f4b6c1bc-5d26-4914-82db-9117772cc24c","coroutine_id":701}
+[2023-11-05 00:23:18] sql.INFO: [3.22] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"7dbca22e-10e0-4e43-bc62-e88860e1ba1f","coroutine_id":702}
+[2023-11-05 00:24:18] sql.INFO: [19.71] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c3622b96-f50c-4b0b-b024-6f6d971b538f","coroutine_id":703}
+[2023-11-05 00:25:18] sql.INFO: [11.46] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"dee5842f-9823-4fc2-b58b-47f417cec387","coroutine_id":704}
+[2023-11-05 00:26:18] sql.INFO: [3.47] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"323f5972-c38f-463b-82d9-8748cb2a8391","coroutine_id":705}
+[2023-11-05 00:27:18] sql.INFO: [12.97] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"e50979fa-8387-4237-a23d-cd913f8e2dff","coroutine_id":706}
+[2023-11-05 00:28:18] sql.INFO: [13.82] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"1b306ff1-5207-42fc-9fff-47b445565b74","coroutine_id":707}
+[2023-11-05 00:29:18] sql.INFO: [14.61] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"aace68a4-1674-4e5b-9562-9c0d2bce6859","coroutine_id":708}
+[2023-11-05 00:30:18] sql.INFO: [3.81] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"7e1cc42a-363d-4f26-8d9f-b23f2e47ad51","coroutine_id":709}
+[2023-11-05 15:44:27] sql.INFO: [19.32] select * from `sqcloud_system_user` where `username` = 'superAdmin' and `sqcloud_system_user`.`deleted_at` is null limit 1 [] {"request_id":"8fe88ac0-f597-4e68-b1fb-7595d55eb29b","coroutine_id":719}
+[2023-11-05 15:44:27] sql.INFO: [4.16] insert into `sqcloud_system_login_log` (`username`, `ip`, `ip_location`, `os`, `browser`, `status`, `message`, `login_time`) values ('superAdmin', '192.168.65.1', '未知', 'Mac', 'Chrome', '1', '登录成功', '2023-11-05 15:44:27') [] {"request_id":"8fe88ac0-f597-4e68-b1fb-7595d55eb29b","coroutine_id":719}
+[2023-11-05 15:44:27] sql.INFO: [2.23] update `sqcloud_system_user` set `login_ip` = '192.168.65.1', `login_time` = '2023-11-05 15:44:27', `sqcloud_system_user`.`updated_at` = '2023-11-05 15:44:27' where `id` = '1' and `sqcloud_system_user`.`deleted_at` is null [] {"request_id":"8fe88ac0-f597-4e68-b1fb-7595d55eb29b","coroutine_id":719}
+[2023-11-05 15:44:27] sql.INFO: [18.55] select count(*) as aggregate from `sqcloud_system_notice` where `sqcloud_system_notice`.`deleted_at` is null [] {"request_id":"ae0786b5-47e9-4cb7-8d69-7e6f499f4d8a","coroutine_id":424}
+[2023-11-05 15:44:38] sql.INFO: [6.45] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"30f03c38-d22e-4413-ae6f-c78b28617eff","coroutine_id":724}
+[2023-11-05 15:44:48] sql.INFO: [7.75] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"bd53401d-a3b1-48c3-a6ac-934d5b2e0a94","coroutine_id":725}
+[2023-11-05 15:44:58] sql.INFO: [3.09] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"2fdb2aee-e132-498b-97c2-50bae142e11a","coroutine_id":726}
+[2023-11-05 15:45:08] sql.INFO: [4.65] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"95f86e02-832a-479c-bf82-70fe3cebccb0","coroutine_id":727}
+[2023-11-05 15:45:18] sql.INFO: [3.75] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"90e266c4-ab13-4cc6-9d74-28fb814d9383","coroutine_id":728}
+[2023-11-05 15:45:28] sql.INFO: [8.64] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"98d3045f-20d1-4773-9594-1c34e73e71f0","coroutine_id":729}
+[2023-11-05 15:45:38] sql.INFO: [5.68] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"98796e6d-e980-469a-bcb5-e6fa5bb594fe","coroutine_id":730}
+[2023-11-05 15:45:48] sql.INFO: [4.42] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"5067c434-59f4-4d92-a819-70339dba891f","coroutine_id":731}
+[2023-11-05 15:45:58] sql.INFO: [5.15] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"3191b428-b8d8-4ed2-aae6-b27142db2d76","coroutine_id":732}
+[2023-11-05 15:46:39] sql.INFO: [2.62] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"f359e155-d3cd-4956-87bf-4abf28d5803e","coroutine_id":733}
+[2023-11-05 15:47:39] sql.INFO: [4.26] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"49069208-6235-47d2-9e8b-39eadb69be76","coroutine_id":734}
+[2023-11-05 15:48:39] sql.INFO: [13.8] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"5cbc2873-7aa4-4ab9-937d-d22383f2204e","coroutine_id":735}
+[2023-11-05 15:49:01] sql.INFO: [3.4] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"ff5b3b50-5b21-41ae-bf29-b559e4e6a301","coroutine_id":736}
+[2023-11-05 15:49:08] sql.INFO: [4.71] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"8ee08738-83a7-4b00-a3c7-f9372688f7e5","coroutine_id":737}
+[2023-11-05 15:49:18] sql.INFO: [6.07] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"8c5b551f-6f3b-4adf-83e3-dd12bf4564b8","coroutine_id":738}
+[2023-11-05 15:49:28] sql.INFO: [5.07] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"6994840a-89a2-492e-a387-adaab6c682e0","coroutine_id":739}
+[2023-11-05 15:49:38] sql.INFO: [5.98] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"e61057f1-2e2d-4a72-8fb6-1652ddda1a83","coroutine_id":740}
+[2023-11-05 15:49:48] sql.INFO: [5.82] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"aff1e534-43de-4d2c-b329-9a7836474ab1","coroutine_id":741}
+[2023-11-05 15:49:58] sql.INFO: [5.29] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"1179bd41-1f26-4ec5-a981-f61d0388f4fc","coroutine_id":742}
+[2023-11-05 15:50:39] sql.INFO: [3.51] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"d9ec4715-ccd6-4ee8-8c1f-091e085fb335","coroutine_id":743}
+[2023-11-05 15:51:39] sql.INFO: [16.38] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"2e7559c4-c2fb-4901-bb69-bd94392889de","coroutine_id":744}
+[2023-11-05 15:52:39] sql.INFO: [3.81] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"88dd9e3c-56e1-458f-a694-85af14555633","coroutine_id":745}
+[2023-11-05 15:53:39] sql.INFO: [16.84] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"c74932ad-c158-4a5a-925e-303ea2d6ea01","coroutine_id":746}
+[2023-11-05 15:54:39] sql.INFO: [3.99] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"00ef1d93-81f7-4f6c-9c94-62f954ecd276","coroutine_id":747}
+[2023-11-05 15:55:39] sql.INFO: [12.6] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"da334e81-d208-409d-a8cf-8523e48d67f1","coroutine_id":748}
+[2023-11-05 15:56:39] sql.INFO: [1.19] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"cecd20dc-90bf-49fa-b796-331e24fb6d2f","coroutine_id":749}
+[2023-11-05 15:57:39] sql.INFO: [22.65] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"3ca877fa-16ab-4100-baf5-399d97194cc7","coroutine_id":750}
+[2023-11-05 15:58:39] sql.INFO: [3.12] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"8341f89f-40ab-45bf-b125-57b644580ecd","coroutine_id":751}
+[2023-11-05 15:59:39] sql.INFO: [18.75] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"72ae5b2c-c740-4351-955a-cf184e2e01c6","coroutine_id":752}
+[2023-11-05 16:00:39] sql.INFO: [3.95] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"84a7c539-1d97-4598-ad24-389c08dc8bd9","coroutine_id":753}
+[2023-11-05 16:01:09] sql.INFO: [29.65] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"5b6d7c33-f9ad-43bf-9ed9-b912fc1a4d3e","coroutine_id":1}
+[2023-11-05 16:01:09] sql.INFO: [3.93] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"5b6d7c33-f9ad-43bf-9ed9-b912fc1a4d3e","coroutine_id":1}
+[2023-11-05 16:01:09] sql.INFO: [1.51] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"5b6d7c33-f9ad-43bf-9ed9-b912fc1a4d3e","coroutine_id":1}
+[2023-11-05 16:01:09] sql.INFO: [30.83] create table `sqcloud_sqcloud_system_apps_menu` (`id` bigint unsigned not null auto_increment primary key comment '主键', `parent_id` bigint unsigned not null comment '父ID', `level` varchar(500) not null comment '组级集合', `name` varchar(50) not null comment '菜单名称', `code` varchar(100) not null comment '菜单标识代码', `icon` varchar(50) null comment '菜单图标', `route` varchar(200) null comment '路由地址', `component` varchar(255) null comment '组件路径', `redirect` varchar(255) null comment '跳转地址', `is_hidden` smallint not null default '1' comment '是否隐藏 (1是 2否)', `type` char(1) not null default '' comment '菜单类型, (M菜单 B按钮 L链接 I iframe)', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '菜单信息表' [] {"request_id":"5b6d7c33-f9ad-43bf-9ed9-b912fc1a4d3e","coroutine_id":1}
+[2023-11-05 16:01:09] sql.INFO: [1.55] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_155603_create_system_apps_menu_table', '5') [] {"request_id":"5b6d7c33-f9ad-43bf-9ed9-b912fc1a4d3e","coroutine_id":1}
+[2023-11-05 16:01:39] sql.INFO: [12.53] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"68f5394e-3524-40ac-87ec-2ea43209b411","coroutine_id":754}
+[2023-11-05 16:02:31] sql.INFO: [20.84] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"f3c3cfdf-b4fe-4277-8895-8e7e5ce2f683","coroutine_id":1}
+[2023-11-05 16:02:31] sql.INFO: [1.6] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"f3c3cfdf-b4fe-4277-8895-8e7e5ce2f683","coroutine_id":1}
+[2023-11-05 16:02:31] sql.INFO: [1.09] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"f3c3cfdf-b4fe-4277-8895-8e7e5ce2f683","coroutine_id":1}
+[2023-11-05 16:02:31] sql.INFO: [14.9] create table `sqcloud_system_apps_menu` (`id` bigint unsigned not null auto_increment primary key comment '主键', `parent_id` bigint unsigned not null comment '父ID', `level` varchar(500) not null comment '组级集合', `name` varchar(50) not null comment '菜单名称', `code` varchar(100) not null comment '菜单标识代码', `icon` varchar(50) null comment '菜单图标', `route` varchar(200) null comment '路由地址', `component` varchar(255) null comment '组件路径', `redirect` varchar(255) null comment '跳转地址', `is_hidden` smallint not null default '1' comment '是否隐藏 (1是 2否)', `type` char(1) not null default '' comment '菜单类型, (M菜单 B按钮 L链接 I iframe)', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '菜单信息表' [] {"request_id":"f3c3cfdf-b4fe-4277-8895-8e7e5ce2f683","coroutine_id":1}
+[2023-11-05 16:02:31] sql.INFO: [1.29] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_155603_create_system_apps_menu_table', '5') [] {"request_id":"f3c3cfdf-b4fe-4277-8895-8e7e5ce2f683","coroutine_id":1}
+[2023-11-05 16:02:39] sql.INFO: [9.29] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"7a09154e-6ce0-4a5b-b27d-9956b3efc07e","coroutine_id":755}
+[2023-11-05 16:03:39] sql.INFO: [12.21] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"48afbf2a-8d86-4d57-b4c9-ec2b5fd95ddd","coroutine_id":756}
+[2023-11-05 16:04:05] sql.INFO: [21.42] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"77739ad3-c876-4a7b-83d3-d8bb11aaf9c0","coroutine_id":1}
+[2023-11-05 16:04:05] sql.INFO: [1.76] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"77739ad3-c876-4a7b-83d3-d8bb11aaf9c0","coroutine_id":1}
+[2023-11-05 16:04:05] sql.INFO: [0.97] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"77739ad3-c876-4a7b-83d3-d8bb11aaf9c0","coroutine_id":1}
+[2023-11-05 16:04:05] sql.INFO: [16.38] create table `sqcloud_system_app_menu` (`id` bigint unsigned not null auto_increment primary key comment '主键', `parent_id` bigint unsigned not null comment '父ID', `level` varchar(500) not null comment '组级集合', `name` varchar(50) not null comment '菜单名称', `code` varchar(100) not null comment '菜单标识代码', `icon` varchar(50) null comment '菜单图标', `route` varchar(200) null comment '路由地址', `component` varchar(255) null comment '组件路径', `redirect` varchar(255) null comment '跳转地址', `is_hidden` smallint not null default '1' comment '是否隐藏 (1是 2否)', `type` char(1) not null default '' comment '菜单类型, (M菜单 B按钮 L链接 I iframe)', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '菜单信息表' [] {"request_id":"77739ad3-c876-4a7b-83d3-d8bb11aaf9c0","coroutine_id":1}
+[2023-11-05 16:04:05] sql.INFO: [1.65] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_155603_create_system_app_menu_table', '5') [] {"request_id":"77739ad3-c876-4a7b-83d3-d8bb11aaf9c0","coroutine_id":1}
+[2023-11-05 16:04:39] sql.INFO: [18.8] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"d42777f2-221a-4679-b05b-5f0a7f30e8b3","coroutine_id":757}
+[2023-11-05 16:05:39] sql.INFO: [8.75] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"551c0454-227e-41e2-a9e0-d756d6dfce99","coroutine_id":758}
+[2023-11-05 16:06:39] sql.INFO: [4.51] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"767e257d-1fc9-4227-919e-e9625cb269ed","coroutine_id":759}
+[2023-11-05 16:07:39] sql.INFO: [15.27] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"41847d06-43fc-4786-a9a5-388a8526f471","coroutine_id":760}
+[2023-11-05 16:08:39] sql.INFO: [6.09] select count(*) as aggregate from `sqcloud_system_queue_message` where     id IN ( 
+        SELECT `message_id` FROM `sqcloud_system_queue_message_receive` WHERE `user_id` = '1'
+        AND if ('1' <> 'all', `read_status` = '1', ' 1 = 1 ')
+    ) [] {"request_id":"6e818493-6d24-4022-8c00-b189c7410dec","coroutine_id":761}
+[2023-11-05 16:09:45] sql.INFO: [21.53] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"9f7fdcc9-11da-42a6-a4ec-5acd2d894367","coroutine_id":1}
+[2023-11-05 16:09:45] sql.INFO: [1.95] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"9f7fdcc9-11da-42a6-a4ec-5acd2d894367","coroutine_id":1}
+[2023-11-05 16:09:45] sql.INFO: [1.21] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"9f7fdcc9-11da-42a6-a4ec-5acd2d894367","coroutine_id":1}
+[2023-11-05 16:09:45] sql.INFO: [17.91] create table `sqcloud_system_app_role` (`id` bigint unsigned not null auto_increment primary key comment '主键', `name` varchar(30) not null comment '角色名称', `code` varchar(100) not null comment '角色代码', `data_scope` smallint null default '1' comment '数据范围（1：全部数据权限 2：自定义数据权限 3：本部门数据权限 4：本部门及以下数据权限 5：本人数据权限）', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '角色信息表' [] {"request_id":"9f7fdcc9-11da-42a6-a4ec-5acd2d894367","coroutine_id":1}
+[2023-11-05 16:09:45] sql.INFO: [2.28] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_160451_create_system_app_role_table', '6') [] {"request_id":"9f7fdcc9-11da-42a6-a4ec-5acd2d894367","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [31.01] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [1.62] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [1.03] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [14.22] create table `sqcloud_system_app_promission` (`user_id` bigint unsigned not null comment '用户主键', `app_role_id` bigint unsigned not null comment '角色主键') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '用户与角色关联表' [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [24.22] alter table `sqcloud_system_app_promission` add primary key `system_app_promission_user_id_app_role_id_primary`(`user_id`, `app_role_id`) [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:11:13] sql.INFO: [1.79] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_161054_create_system_app_promission_table', '7') [] {"request_id":"8842820b-f153-4bca-9850-c51b290cf365","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [30.16] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [2.04] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [1.12] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [15.83] create table `sqcloud_system_app_menu` (`id` bigint unsigned not null auto_increment primary key comment '主键', `app_id` bigint not null comment 'App ID', `parent_id` bigint unsigned not null comment '父ID', `level` varchar(500) not null comment '组级集合', `name` varchar(50) not null comment '菜单名称', `code` varchar(100) not null comment '菜单标识代码', `icon` varchar(50) null comment '菜单图标', `route` varchar(200) null comment '路由地址', `component` varchar(255) null comment '组件路径', `redirect` varchar(255) null comment '跳转地址', `is_hidden` smallint not null default '1' comment '是否隐藏 (1是 2否)', `type` char(1) not null default '' comment '菜单类型, (M菜单 B按钮 L链接 I iframe)', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '菜单信息表' [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [1.47] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_155603_create_system_app_menu_table', '5') [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [9.26] create table `sqcloud_system_app_role` (`id` bigint unsigned not null auto_increment primary key comment '主键', `app_id` bigint not null comment 'App ID', `name` varchar(30) not null comment '角色名称', `code` varchar(100) not null comment '角色代码', `data_scope` smallint null default '1' comment '数据范围（1：全部数据权限 2：自定义数据权限 3：本部门数据权限 4：本部门及以下数据权限 5：本人数据权限）', `status` smallint null default '1' comment '状态 (1正常 2停用)', `sort` smallint unsigned null default '0' comment '排序', `created_by` bigint null comment '创建者', `updated_by` bigint null comment '更新者', `created_at` timestamp null comment '创建时间', `updated_at` timestamp null comment '更新时间', `deleted_at` timestamp null comment '删除时间', `remark` varchar(255) null comment '备注') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '角色信息表' [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [1.24] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_160451_create_system_app_role_table', '5') [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [8.49] create table `sqcloud_system_app_promission` (`user_id` bigint unsigned not null comment '用户主键', `app_role_id` bigint unsigned not null comment '角色主键') default character set utf8mb4 collate 'utf8mb4_general_ci' engine = Innodb COMMENT = '用户与角色关联表' [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [15.34] alter table `sqcloud_system_app_promission` add primary key `system_app_promission_user_id_app_role_id_primary`(`user_id`, `app_role_id`) [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 16:15:48] sql.INFO: [1.31] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_161054_create_system_app_promission_table', '5') [] {"request_id":"7a56a025-099d-463e-950d-f52fbaef75b2","coroutine_id":1}
+[2023-11-05 18:36:12] sql.INFO: [29.63] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"f1884912-3d99-4886-8968-6e56ae240549","coroutine_id":1}
+[2023-11-05 18:36:12] sql.INFO: [2.16] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"f1884912-3d99-4886-8968-6e56ae240549","coroutine_id":1}
+[2023-11-05 18:36:12] sql.INFO: [1.1] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"f1884912-3d99-4886-8968-6e56ae240549","coroutine_id":1}
+[2023-11-05 18:38:35] sql.INFO: [32.25] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"71b7ca25-d82c-4fa9-a5c1-1110f51c5fe7","coroutine_id":1}
+[2023-11-05 18:38:35] sql.INFO: [1.87] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"71b7ca25-d82c-4fa9-a5c1-1110f51c5fe7","coroutine_id":1}
+[2023-11-05 18:38:35] sql.INFO: [1.04] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"71b7ca25-d82c-4fa9-a5c1-1110f51c5fe7","coroutine_id":1}
+[2023-11-05 18:40:58] sql.INFO: [17.99] select * from information_schema.tables where table_schema = 'mineadmin' and table_name = 'sqcloud_migrations' [] {"request_id":"277ab031-ece1-4997-9413-25f1b927958b","coroutine_id":1}
+[2023-11-05 18:40:58] sql.INFO: [1.65] select `migration` from `sqcloud_migrations` order by `batch` asc, `migration` asc [] {"request_id":"277ab031-ece1-4997-9413-25f1b927958b","coroutine_id":1}
+[2023-11-05 18:40:58] sql.INFO: [0.97] select max(`batch`) as aggregate from `sqcloud_migrations` [] {"request_id":"277ab031-ece1-4997-9413-25f1b927958b","coroutine_id":1}
+[2023-11-05 18:40:58] sql.INFO: [17.17] alter table `sqcloud_system_app` add `logo` varchar(100) not null comment '应用logo', add `components_host` varchar(100) not null comment 'component domain' [] {"request_id":"277ab031-ece1-4997-9413-25f1b927958b","coroutine_id":1}
+[2023-11-05 18:40:58] sql.INFO: [1.46] insert into `sqcloud_migrations` (`migration`, `batch`) values ('2023_11_05_183121_create_system_app_table', '6') [] {"request_id":"277ab031-ece1-4997-9413-25f1b927958b","coroutine_id":1}
+[2023-11-05 18:49:24] sql.INFO: [21.56] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_systemAppMenu' order by ORDINAL_POSITION [] {"request_id":"34fe1b02-490b-4813-8d4b-3456b17919f2","coroutine_id":1}
+[2023-11-05 18:50:29] sql.INFO: [16.36] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_systemAppMenu' order by ORDINAL_POSITION [] {"request_id":"2e9abd38-e19e-4ea2-87bc-6335eae07027","coroutine_id":1}
+[2023-11-05 18:52:48] sql.INFO: [24.39] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app_menu' order by ORDINAL_POSITION [] {"request_id":"308ab2de-1e03-4740-8bd9-04de9ddb6e34","coroutine_id":1}
+[2023-11-05 18:54:10] sql.INFO: [27.27] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app_menu' order by ORDINAL_POSITION [] {"request_id":"35b106af-9f2b-4fd8-b0c1-92f019ce06ba","coroutine_id":1}
+[2023-11-05 18:55:06] sql.INFO: [28.35] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app_menu' order by ORDINAL_POSITION [] {"request_id":"f51aad54-d807-4a5d-8fea-9895a1da56f0","coroutine_id":1}
+[2023-11-05 18:55:53] sql.INFO: [22.9] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app_role' order by ORDINAL_POSITION [] {"request_id":"8eafc4b3-5546-4a45-ab81-04430ac6ad43","coroutine_id":1}
+[2023-11-05 18:56:04] sql.INFO: [17.36] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app_promission' order by ORDINAL_POSITION [] {"request_id":"ab4b439a-50b6-460d-8919-09e0ba50107c","coroutine_id":1}
+[2023-11-05 18:56:21] sql.INFO: [17.18] select `column_key` as `column_key`, `column_name` as `column_name`, `data_type` as `data_type`, `column_comment` as `column_comment`, `extra` as `extra`, `column_type` as `column_type` from information_schema.columns where `table_schema` = 'mineadmin' and `table_name` = 'sqcloud_system_app' order by ORDINAL_POSITION [] {"request_id":"fbce5d5d-e056-4daa-ae33-2f4f9cc7ac62","coroutine_id":1}

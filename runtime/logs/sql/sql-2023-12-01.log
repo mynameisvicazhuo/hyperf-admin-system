@@ -1,0 +1,2 @@
+[2023-12-01 19:31:55] sql.INFO: [21.77] select * from `sqcloud_system_app_menu` where `sqcloud_system_app_menu`.`deleted_at` is null order by `parent_id` asc, `sort` desc [] {"request_id":"ba1b8dc4-88c8-41c6-a9e7-69ac389f42dd","coroutine_id":2}
+[2023-12-01 19:38:25] sql.INFO: [15.59] select * from `sqcloud_system_app_menu` where `sqcloud_system_app_menu`.`deleted_at` is null order by `parent_id` asc, `sort` desc [] {"request_id":"9a0de78c-3fc5-4ba5-84ee-a31187a15533","coroutine_id":2}

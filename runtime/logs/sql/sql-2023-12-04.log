@@ -1,0 +1,2 @@
+[2023-12-04 21:31:05] sql.INFO: [17.07] select count(*) as aggregate from `sqcloud_system_app` where `sqcloud_system_app`.`deleted_at` is null [] {"request_id":"28036fc9-76c4-47fe-8bb0-def99dad61c4","coroutine_id":2}
+[2023-12-04 21:31:05] sql.INFO: [1.8] select * from `sqcloud_system_app` where `sqcloud_system_app`.`deleted_at` is null limit 15 offset 0 [] {"request_id":"28036fc9-76c4-47fe-8bb0-def99dad61c4","coroutine_id":2}

@@ -1,0 +1,1 @@
+[2023-11-26 18:05:34] mineAdmin.ERROR: A token is required[234] in /opt/www/vendor/xmo/jwt-auth/src/JWT.php [] {"request_id":"f034f004-9965-4193-bb5c-b2c74e3b98cc","coroutine_id":38}

@@ -1,0 +1,1 @@
+[2023-11-27 22:38:58] mineAdmin.ERROR: Invalid middleware, it has to provide a process() method.[42] in /opt/www/vendor/hyperf/dispatcher/src/AbstractRequestHandler.php [] {"request_id":"242e7369-6ff3-4db3-b51a-c0e853a58449","coroutine_id":2}
